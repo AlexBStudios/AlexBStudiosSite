@@ -10,8 +10,9 @@ body {
 
 h2 {
     margin-top: 40px;
+}
 
-    a {
+a {
     display: inline-block;
     background-color: #444;
     color: white;
@@ -22,5 +23,4 @@ h2 {
 
 a:hover {
     background-color: #666;
-}
 }
