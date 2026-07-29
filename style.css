@@ -10,4 +10,17 @@ body {
 
 h2 {
     margin-top: 40px;
+
+    a {
+    display: inline-block;
+    background-color: #444;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: #666;
+}
 }
