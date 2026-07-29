@@ -19,6 +19,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+h1 + h2 {
+    margin-top: 0px;
+}
+
 p {
     margin-bottom: 25px;
 }
@@ -32,6 +36,9 @@ a {
     border-radius: 8px;
 }
 
+a:hover {
+    background-color: #666;
+}
 a:hover {
     background-color: #666;
 }
