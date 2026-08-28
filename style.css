@@ -1,3 +1,10 @@
+@font-face {
+font-family: "Mistral";
+src: url("fonts/Mistral.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+}
+
 body {
 background-color: #111;
 color: white;
@@ -10,7 +17,7 @@ position: relative;
 }
 
 h1 {
-font-family: Mistral, cursive;
+font-family: "Mistral", cursive;
 font-size: 100px;
 margin: 0 0 60px 0;
 text-shadow: 4px 4px 0 #0026FF;
@@ -118,18 +125,16 @@ body {
     padding: 20px;
 }
 
-/* Logo */
+/* Hide logo on mobile */
 
 .logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100px;
+    display: none;
 }
 
-/* Main title */
+/* Mobile title uses the actual Mistral font */
 
 h1 {
+    font-family: "Mistral", cursive;
     font-size: 60px;
     margin-bottom: 40px;
 }
