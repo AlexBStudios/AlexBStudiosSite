@@ -75,7 +75,7 @@ position: absolute;
 width: 160px;
 height: auto;
 right: 100%;
-margin-right: 20px;
+margin-right: 80px;
 top: 0;
 }
 
@@ -84,7 +84,7 @@ position: absolute;
 width: 130px;
 height: auto;
 left: 100%;
-margin-left: 20px;
+margin-left: 80px;
 top: 0;
 }
 
@@ -158,10 +158,6 @@ h1 + h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.zorath-fred-content {
-    width: 100%;
 }
 
 .zorath {
