@@ -56,34 +56,30 @@ height: auto;
 
 /* Zorath & Fred section */
 
-.character-section {
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
+.zorath-fred-section {
 margin-top: 100px;
 }
 
-.character-content {
-width: 500px;
+.character-heading {
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
-.character-content h2 {
-margin-top: 0;
+.character-heading h2 {
+margin: 0 20px;
 }
 
 .zorath {
 width: 160px;
 height: auto;
 flex-shrink: 0;
-margin-right: 15px;
 }
 
 .fred {
 width: 130px;
 height: auto;
 flex-shrink: 0;
-margin-left: 15px;
 }
 
 /* Link rows */
@@ -132,22 +128,24 @@ h1 + h2 {
     margin-top: 0;
 }
 
-.character-section {
+.zorath-fred-section {
     margin-top: 60px;
 }
 
-.character-content {
-    width: 60%;
+.character-heading h2 {
+    margin: 0 8px;
 }
 
 .zorath {
     width: 90px;
-    margin-right: 5px;
 }
 
 .fred {
     width: 75px;
-    margin-left: 5px;
+}
+
+.zorath-fred-section p {
+    margin-top: 20px;
 }
 
 .link-row {
