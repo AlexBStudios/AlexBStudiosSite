@@ -48,7 +48,7 @@ background-color: #666;
 /* Alex B. Studios logo */
 
 .logo {
-position: absolute;
+position: fixed;
 top: 20px;
 left: 20px;
 width: 194px;
@@ -112,11 +112,10 @@ body {
 }
 
 .logo {
-    position: relative;
-    top: auto;
-    left: auto;
-    width: 130px;
-    margin-bottom: 10px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
 }
 
 h1 {
