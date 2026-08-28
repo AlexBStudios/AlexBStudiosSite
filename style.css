@@ -49,10 +49,11 @@ background-color: #666;
 
 .logo {
 position: fixed;
-top: 20px;
-left: 20px;
+top: 0;
+left: 0;
 width: 194px;
 height: auto;
+z-index: 1000;
 }
 
 /* Zorath & Fred section */
@@ -113,8 +114,8 @@ body {
 
 .logo {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 0;
+    left: 0;
     width: 100px;
 }
 
