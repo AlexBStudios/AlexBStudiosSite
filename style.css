@@ -1,8 +1,10 @@
+
 @font-face {
 font-family: "Mistral";
-src: url("Mistral.woff2") format("woff2");
+src: url("/Mistral.woff2?v=2") format("woff2");
 font-weight: normal;
 font-style: normal;
+font-display: swap;
 }
 
 body {
@@ -134,7 +136,7 @@ body {
 /* Mobile title uses the actual Mistral font */
 
 h1 {
-    font-family: "Mistral", cursive;
+    font-family: "Mistral", cursive !important;
     font-size: 60px;
     margin-bottom: 40px;
 }
